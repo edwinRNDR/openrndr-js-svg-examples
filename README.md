@@ -1,5 +1,8 @@
-# openrndr-js-template
+# openrndr-js-svg-examples
 
-Use with openrndr-0.4 and orx-0.4 branches. Publish both using `./gradlew publishToMavenLocal -Prelease.version=0.5.1-SNAPSHOT`
+Edit `Program.kt` to change between the examples.
+
+`library/SVGDrawer.kt` contains code to convert OPENRNDR's `ShapeContour` to SVG paths. `SVGDrawer` is simple and 
+limited in functionality at this point but should be fairly easy to extend.
 
 In IJ run the `browserDevelopmentRun --continuous` task  
